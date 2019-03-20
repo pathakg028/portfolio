@@ -1,0 +1,63 @@
+@import 'navbar.css';
+@import 'main.css';
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+:root {
+  --darkBlue:#1B2855;
+  --darkPink:#E31B6D;
+  --lightBlue:#85BBE5;
+  --skyBlue:#E6F0FA;
+  }
+
+  body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans', sans-serif;
+  }
+  .container{
+    height: 100vh;
+  }
+  .intro {
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CEEDFB;
+  }
+  .midPage span{
+    color: var(--darkPink);
+  }
+  .midPage h3{
+    color: black;
+    font-weight: normal; 
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .midPage a {
+    text-decoration: none;
+    color: var(--darkBlue);
+    padding: 10px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .mainButton{
+    width: 131px;
+    margin: 0 auto;
+  }
+  .midPage{
+    width: 24%;
+  }
+.technology{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.web-technology {
+  width: 10%;
+  height: 100%;
+}

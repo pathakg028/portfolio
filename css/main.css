@@ -1,0 +1,45 @@
+.main {
+  height : calc(100vh - 70px);
+}
+.main-heading{
+  text-align: center;
+  padding: 30px;
+}
+.skills{
+  margin-top: 50px;
+height: 60%;
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+.card {
+width: 30%;
+text-align: center;
+}
+
+.skill-graph{
+  width: 70%;
+  padding: 20px;
+}
+.avatar{
+  height: 200px;
+  width: 200px;
+  margin:0 auto;
+  background: url('../img/avatar.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  /* text-align: center; */
+  /* margin-top: 10px; */
+}
+.txt{
+  margin: 22px
+}
+
+.txt {
+  height: 30%;
+}
+.skill-graph {
+  margin-left: 20px;
+}
