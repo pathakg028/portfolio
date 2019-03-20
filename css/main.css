@@ -43,3 +43,24 @@ text-align: center;
 .skill-graph {
   margin-left: 20px;
 }
+
+header {
+  position: fixed;
+  top: 0px;
+}
+
+@media screen and (max-width: 992px) {
+  nav > ul > li {
+    display: none;
+  }
+  nav > span{
+    display: block;
+    color: white;
+    }
+  .skill-graph {
+    display: none;
+  }
+  .card {
+    width:100%;
+  }
+}

@@ -26,6 +26,9 @@
     align-items: center;
     background-color: #CEEDFB;
   }
+  header span{
+    display: none;
+  }
   .midPage span{
     color: var(--darkPink);
   }
@@ -60,4 +63,17 @@
 .web-technology {
   width: 10%;
   height: 100%;
+}
+@media screen and (max-width: 992px) {
+  .midPage{
+    width:80%;
+  }
+  header > span{
+    display: block;
+    color:white;
+    margin-top: 20px;
+    margin-right: 30px;
+    float: right;
+    font-size: 20px;
+  }
 }
