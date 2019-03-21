@@ -11,8 +11,8 @@ display: flex;
 justify-content: space-between;
 }
 .card {
-width: 30%;
-text-align: center;
+width: 50%;
+text-align: justify;
 min-height: 100%;
 margin-top: 44px;
 }
@@ -45,13 +45,17 @@ margin-top: 44px;
   /* text-align: center; */
   /* margin-top: 10px; */
 }
-.txt{
-  margin: 22px
-}
 
-.txt {
-  height: 30%;
+.txt p{
   color: #000;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-justify: inter-word;
+  padding: 20px;
+  text-align: center;
+  width:60%;
+  margin: 0 auto;
+
 }
 .graph {
   margin-left: 20px;

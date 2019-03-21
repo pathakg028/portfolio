@@ -1,0 +1,79 @@
+A junior developer, I originally studied Mtech (Information Technology) from Swinburne universities Melbourne. 
+I worked in a Digital Agency (APD) as a Traffic Executive.
+
+I am very fond of learning new things specially web development. So I have shifted my focus toward 
+transitioning into a career in full-stack web development. I am currently undertaking the Coder Academy Bootcamp at the Academy of Information Technology. 
+I'm always looking to explore new opportunities and work with passionate, creative people.
+
+
+1. Describe key events in the development of the internet from the 1980s to today?
+
+pre 1990: 
+fundamentals of computer networking, Cisco founded
+home computing: Apple, Microsoft
+Usenet
+
+1990-1991: fundamental protocols
+WWW protocols developed and implemented by Tim Berners-Lee at CERN
+
+1992-1993: first browsers, server scripts
+Mosaic Graphical Web Browser created at UIUC NCSA by Marc Andreessen
+CGI standards written
+
+1994-1995: tech boom begins with infrastructure, browsers
+
+1996-1997: the web services develop 
+April 1996: Lycos IPO with $300 million valuation, Yahoo at $1 billon (1000x earnings)
+January 1997: eBay hosts 2 million auctions, growth is crazy
+May 15, 1997: Amazon IPO at $438 million valuation
+July 11, 1997: @Home goes public, providing high speed access via cable: $1 billion valuation
+
+1998-1999: peak of dot-com bubble, rush to broadband (cable, DSL) and multimedia Internet
+
+2000-2001: dot-com implosion
+
+2004-2005: a new web: media, ajax, crowdsourcing, the rise of Google
+Facebook founded at Harvard, company moves to Palo Alto, has a million college users by the end of 2004; adds photos and tagging in 2005
+Yahoo drops Google as search-provider (Yahoo acquired AltaVista)
+Flickr (photos+tags+sharing) launched April 2004 (acquired by Yahoo March 2005)
+April 1, 2004: gmail launches with 1GB storage, revolutionizing web email
+Google goes public on August 19, 2004 at $27 billion valuation
+LinkedIn gains popularity: 1 million members (launched May 2003), MySpace craze (and Friendster founded 2002, but flamed out)
+Yelp founded: October 2004
+Mozilla Firefox web browser, WebKit open-sourced
+February 8, 2005: Google Maps launched, with gmail begins AJAX and JavaScript era
+December 3, 2005: Macromedia acquired by Adobe for $3.4 billion
+
+2006-2007:
+Pandora brings Internet Radio mainstream
+YouTube launched (April 2005), brings video to Internet, Google acquires (Oct 2006) $1.65 billion
+Facebook picks up key hires, builds news feed, launches to public, opens up platform, gets huge $15B valuation and funding ... MySpace crests
+
+2008-2009:
+Microsoft tries to buy Yahoo: Yahoo dying a slow death
+Hulu brings television to the Internet
+Palm Pre and WebOS launch
+Google Chrome released, V8 JS engine, Chrome OS planned
+Google Voice launches publicly: convergence of communication to the web
+Android project ramps up; mobile browsing/search/apps very popular
+Groupon starts making a lot of money, really fast
+
+2010-2011:
+iPad launches, touch-based computing
+Foursquare, hot mobile/web applications
+Quora, real-time web frameworks
+Welcome to the Age of Facebook, the 8th layer of the Internet.
+
+
+2.Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+A server hosts information.
+
+An IP address is associated with that server.
+
+A DNS points you towards the IP address the server is on.
+
+AN ISP provides a gateway to the rest of the internet, that the DNS server is in charge of directing.
+
+A Browser communicates with your devices’ network access chip, and then to the ISP.
+
+A user creates information or accesses information through this browser.
