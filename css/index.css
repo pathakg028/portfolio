@@ -12,7 +12,9 @@ a, a:hover{
   --lightBlue:#85BBE5;
   --skyBlue:#E6F0FA;
   }
-
+html{
+  scroll-behavior: smooth;
+}
   body {
     font-family: 'Playfair Display', serif;
     font-family: 'Open Sans', sans-serif;
@@ -40,11 +42,11 @@ a, a:hover{
     color: var(--darkPink);
   }
   .midPage h3{
-    color: black;
-    font-weight: normal; 
+    color: var(--darkBlue);
+    font-weight: bold; 
     padding-bottom: 30px;
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
   }
   .mainButton{
@@ -126,7 +128,7 @@ margin: 0 auto;
 
 .graph{
   margin:0 auto;
-  width: 95vw;
+  width: 85vw;
 }
 .graph h1 {
   text-align: center;
@@ -220,28 +222,40 @@ body {
   display: flex;
   margin: 0 0 1rem 0;
 }
-label, input {
+input {
   width: 70%;
   padding: 0.5rem;
   box-sizing: border-box;
   justify-content: space-between;
   font-size: 1.1rem;
-}
-label {
-  text-align: right;
-  width: 32%;
-}
-input {
   border: 2px solid rgb(173, 201, 238);
   border-radius: 3px;
+  width: 300px;
+}
+
+input[type=submit]{
+  background-color: var(--darkBlue);
+  color: white;
 }
 /* -------------------------------------------------------------------------------------
                                  Footer
 ------------------------------------------------------------------------------------- */
-/* footer ul {
+footer{
+  position: absolute;
+  bottom:0px;
+  width: 100%
+}
+footer ul{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color:var(--darkBlue);
+}
 
-} */
+footer ul li {
+  padding: 0 20px;
+}
 
 
 /* -------------------------------------------------------------------------------------
@@ -252,6 +266,9 @@ input {
 @media screen and (max-width: 992px) {
   .midPage{
     width:80%;
+  }
+  .main-heading{
+    padding-top: 50px;
   }
   header > span{
     display: block;
@@ -267,10 +284,6 @@ input {
   .technology{
     /* width: 90%; */
     width: 90%;
-  }
-  .technology{
-    margin:0 auto;
-    width:90%;
   }
   .devicon-ruby-plain {
     font-size: 70px;
