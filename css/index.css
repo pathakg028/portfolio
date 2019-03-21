@@ -1,9 +1,10 @@
+
 @import 'navbar.css';
 @import 'main.css';
-*{
-  margin: 0px;
-  padding: 0px;
 
+a, a:hover{
+  text-decoration: none;
+  color: var(--darkPink);
 }
 :root {
   --darkBlue:#1B2855;
@@ -18,6 +19,12 @@
   }
   .container{
     height: 100vh;
+  }
+  .main-heading{
+    text-align: center;
+    padding: 100px 0 30px 0;
+  
+
   }
   .intro {
     height:100vh;
@@ -40,17 +47,14 @@
     font-size: 30px;
     text-align: center;
   }
-  .midPage a {
-    text-decoration: none;
-    color: var(--darkBlue);
-    padding: 10px;
-    background-color: white;
-    margin: 0 auto;
-    border-radius: 10px;
-  }
   .mainButton{
     width: 131px;
     margin: 0 auto;
+  }
+  .mainButton a {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
   }
   .midPage{
     width: 24%;
@@ -64,6 +68,187 @@
   width: 10%;
   height: 100%;
 }
+
+.projectsNav {
+width: 60%;
+margin: 0 auto;
+}
+.projectsNav ul {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.projectsNav > ul > li > a {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.projectsDiv {
+  height:80%;
+  width:80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.projectsDiv .a {
+  font-size: 200px;
+  color: green;
+  padding: 0px 50px 0px 50px;
+}
+.projectsDiv .b {
+  font-size: 200px;
+  padding: 0px 50px 0px 50px;
+}
+.projectsDiv .c{
+  font-size: 200px;
+  padding: 0px 50px 0px 50px;
+}
+.projectsDiv .d{
+  font-size: 200px;
+  padding: 0px 50px 0px 50px;
+}
+.projectsDiv .e{
+  font-size: 200px;
+  padding: 0px 50px 0px 50px;
+}
+.projectsDiv .f{
+  font-size: 200px;
+  padding: 0px 50px 0px 50px;
+}
+
+.box {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.graph{
+  margin:0 auto;
+  width: 95vw;
+}
+.graph h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.graph h2{
+  text-align: left;
+}
+.line{
+  height: 25px;
+  width: 90%;
+  margin:0 auto 10px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #fff;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+.line:before {
+  content:'';
+  width: 100%;
+  position: absolute;
+  left:0px;
+  height: 25px;
+  top:0px;
+  z-index:-2;
+  background: #d2d6d7;
+
+}
+.line:after{
+  content:'';
+  background: #333;
+  height: 25px;
+  transition: 0.8s; 
+  display: block;
+  width: 100%; 
+  animation: animate 1 2s;
+  position: absolute;
+  top:0px;
+  left:0px;
+  z-index: -1;
+}
+.line1:after{
+  max-width: 90%;
+}
+
+.line2:after{
+  max-width: 70%;
+}
+.line3:after{
+  max-width: 75%;
+}
+.line4:after{
+  max-width: 80%;
+}
+@keyframes animate{
+  0%{
+    width: 0; 
+  }
+  100%{
+    width: 100%;
+  }
+}
+
+/* -----------------------------------------------------------------------
+                            FORM
+----------------------------------------------------------------------- */
+
+body {
+  background-color: #eee;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  color: #222;
+}
+.form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+#form {
+  max-width: 700px;
+  padding: 2rem;
+  box-sizing: border-box;
+  border: 5px solid #eee;
+  background-color: rgb(202, 225, 243);
+  border-radius: 20px;
+}
+
+.form-field {
+  display: flex;
+  margin: 0 0 1rem 0;
+}
+label, input {
+  width: 70%;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+label {
+  text-align: right;
+  width: 32%;
+}
+input {
+  border: 2px solid rgb(173, 201, 238);
+  border-radius: 3px;
+}
+/* -------------------------------------------------------------------------------------
+                                 Footer
+------------------------------------------------------------------------------------- */
+/* footer ul {
+  display: flex;
+
+} */
+
+
+/* -------------------------------------------------------------------------------------
+                                 MEDIA QUERIES
+------------------------------------------------------------------------------------- */
+
+
 @media screen and (max-width: 992px) {
   .midPage{
     width:80%;
@@ -75,5 +260,151 @@
     margin-right: 30px;
     float: right;
     font-size: 20px;
+  }
+  .linkedIn{
+    font-size: 30px;
+  }
+  .technology{
+    /* width: 90%; */
+    width: 90%;
+  }
+  .technology{
+    margin:0 auto;
+    width:90%;
+  }
+  .devicon-ruby-plain {
+    font-size: 70px;
+  }
+  .devicon-javascript-plain {
+    font-size: 70px;
+  }
+  .devicon-html5-plain{
+    font-size: 70px;
+  }
+  .devicon-css3-plain {
+    font-size: 70px;
+    text-decoration: none;
+  }
+  .projectsNav{
+    display:none;
+  }
+  .projectsDiv {
+    height:80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+    text-align: center;
+  }
+  .projectsDiv .a {
+    height: 200px;
+    font-size: 140px;
+
+  }
+  .projectsDiv .b {
+    height: 200px;
+    font-size: 140px;
+
+  }
+  .projectsDiv .c{
+    height: 200px;
+    font-size: 140px;
+
+  }
+    .projectsDiv .d{
+      height: 200px;
+      font-size: 140px;
+
+    }
+    .projectsDiv .e{
+      height: 200px;
+      font-size: 140px;
+
+    }
+    .projectsDiv .f{
+      height: 200px;
+      font-size: 140px;
+
+    }
+  .box {
+    color: #fff;
+    border-radius: 5px;
+    padding: none;
+  }
+  body {
+    background-color: #eee;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    color: #222;
+  }
+  .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .graph{
+    padding:0px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .projectsDiv{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #fff;
+    text-align: center;
+  }
+  .projectsDiv .a {
+    height: 100px;
+    font-size: 100px;
+    padding-bottom:10px;
+
+  }
+  .projectsDiv .b {
+    height: 100px;
+    font-size: 100px;
+    padding-bottom:10px;
+
+  }
+  .projectsDiv .c{
+    height: 100px;
+    font-size: 100px;
+    padding-bottom:10px;
+
+  }
+    .projectsDiv .d{
+      height: 100px;
+      font-size: 100px;
+      padding-bottom:10px;
+
+    }
+    .projectsDiv .e{
+      height: 100px;
+      font-size: 100px;
+      padding-bottom:10px;
+
+    }
+    .projectsDiv .f{
+      height: 100px;
+      font-size: 100px;
+      padding-bottom:10px;
+
+    }
+    .graph{
+      padding:0px;
+    }
+}
+@media screen and (max-width: 350px) {
+  .projectsDiv{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #fff;
+    text-align: center;
+  }
+  .main{
+    height: 150%;
+  }
+  .graph{
+    padding:0px;
   }
 }

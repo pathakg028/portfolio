@@ -1,12 +1,9 @@
 .main {
-  height : calc(100vh - 70px);
+  min-height : calc(100vh - 70px);
 }
-.main-heading{
-  text-align: center;
-  padding: 30px;
-}
+
 .skills{
-  margin-top: 50px;
+margin-top: 50px;
 height: 60%;
 width: 100%;
 display: flex;
@@ -15,9 +12,23 @@ justify-content: space-between;
 .card {
 width: 30%;
 text-align: center;
+min-height: 100%;
+margin-top: 44px;
 }
-
-.skill-graph{
+.devicon-ruby-plain {
+  font-size: 100px;
+}
+.devicon-javascript-plain {
+  font-size: 100px;
+}
+.devicon-html5-plain{
+  font-size: 100px;
+}
+.devicon-css3-plain {
+  font-size: 100px;
+  text-decoration: none;
+}
+.graph{
   width: 70%;
   padding: 20px;
 }
@@ -39,8 +50,13 @@ text-align: center;
 
 .txt {
   height: 30%;
+  color: #000;
 }
-.skill-graph {
+.linkedIn{
+  color: rgb(26, 96, 167);
+  font-size: 60px;
+}
+.graph {
   margin-left: 20px;
 }
 
@@ -57,10 +73,14 @@ header {
     display: block;
     color: white;
     }
-  .skill-graph {
-    display: none;
+  .graph {
+    display: block;
   }
   .card {
     width:100%;
   }
+  .skills {
+    flex-direction: column;
+  }
+
 }
