@@ -230,7 +230,7 @@ input {
   font-size: 1.1rem;
   border: 2px solid rgb(173, 201, 238);
   border-radius: 3px;
-  width: 300px;
+  width: 280px;
 }
 
 input[type=submit]{
