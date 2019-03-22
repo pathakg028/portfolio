@@ -18,7 +18,10 @@ The main purpose of portfolio website is to demonstrate my skills, projects, wor
 3. Users can visit my linkedIn, github, facebook, twitter profile just by clicking on the icons in the footer.
 
 # Sitemap
+![](./sitemap.png)
 # Screenshots
+![](./phones.png)
+![](./desktop.png)
 # Target audience
 My target audience is mainly Employers and web developers.
 # Tech stack
@@ -29,6 +32,7 @@ Design part is done in Figma. Technlogy used is HTML, CSS. I created repository 
 I did online research and shortlisted few designs first and then color theme.
 # Wireframes
 I drew wireframe on paper first and then created on figma.
+![](./wireframes.png)
 
 # Usability considerations
 
