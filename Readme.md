@@ -1,5 +1,5 @@
 # link (URL)
-https://github.com/pathakg028/portfolio
+https://elastic-newton-009469.netlify.com
 
 # github repository
 
