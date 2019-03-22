@@ -41,7 +41,6 @@ I drew wireframe on paper first and then created on figma.
 4. Users can visit my linkedIn, twitter and facebook profile just by clicking on icons in the footer.
 
 
-# Details of planning process including,
 # Project plan & timeline
 
 I divided my task in 4 parts
