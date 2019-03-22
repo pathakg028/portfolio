@@ -81,12 +81,12 @@ key events in the development of the internet are as follows:
 1. Twitter launches.
 2. Facebook opens its eDoors to everyone.
 
-# Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+# Relationship between fundamental aspects of the internet
 
 A server hosts information. An IP address is associated with that server. A DNS points you towards the IP address the server is on. AN ISP provides a gateway to the rest of the internet, that the DNS server is in charge of directing. A Browser communicates with your devices’ network access chip, and then to the ISP. A user creates information or accesses information through this browser.
 
 
-# Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+# One aspect of the development of internet technologies and how it has contributed to the world today
 
 The biggest Positive impact of the internet on society is the popularity of social networks and social media websites. Societies around the globe are becoming stronger, developed and more intelligent because most technologies are interlinked with the internet.
 
