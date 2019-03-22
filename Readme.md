@@ -5,8 +5,6 @@ https://elastic-newton-009469.netlify.com
 
 https://github.com/pathakg028/portfolio
 
-# Description of your portfolio website, including,
-
 # Purpose
 
 The main purpose of portfolio website is to demonstrate my skills, projects, work experience and interests to the recruiters and people around the world.
@@ -23,11 +21,10 @@ The main purpose of portfolio website is to demonstrate my skills, projects, wor
 # Screenshots
 # Target audience
 My target audience is mainly Employers and web developers.
-# Tech stack (e.g. html, css, deployment platform, etc)
+# Tech stack
 
 Design part is done in Figma. Technlogy used is HTML, CSS. I created repository in github and code is pushed for future references.
 
-# Design documentation including,
 # Design process
 I did online research and shortlisted few designs first and then color theme.
 # Wireframes
@@ -94,12 +91,3 @@ A server hosts information. An IP address is associated with that server. A DNS 
 The biggest Positive impact of the internet on society is the popularity of social networks and social media websites. Societies around the globe are becoming stronger, developed and more intelligent because most technologies are interlinked with the internet.
 
 Internet added values in the people’s life and the way we introduce each other and communicate for shared life, career and business values.  The Internet removes the geographical barriers between people. Societies are getting inspired by each other. And the biggest positives that slowly but definitely societies breaking the Superstition, conservatism and cultural egos.
-
-# introduction
-
-A junior developer, I originally studied Mtech (Information Technology) from Swinburne universities Melbourne. 
-I worked in a Digital Agency (APD) as a Traffic Executive.
-
-I am very fond of learning new things specially web development. So I have shifted my focus toward 
-transitioning into a career in full-stack web development. I am currently undertaking the Coder Academy Bootcamp at the Academy of Information Technology. 
-I'm always looking to explore new opportunities and work with passionate, creative people.
