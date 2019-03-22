@@ -48,13 +48,13 @@ margin-top: 44px;
 
 .txt p{
   color: #000;
-  letter-spacing: 1px;
   line-height: 1.5;
   text-justify: inter-word;
   padding: 20px;
-  text-align: center;
+  text-align: justify;
   width:60%;
   margin: 0 auto;
+  font-size:15px;
 
 }
 .graph {

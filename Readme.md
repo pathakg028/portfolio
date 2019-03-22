@@ -1,3 +1,5 @@
+#introduction
+
 A junior developer, I originally studied Mtech (Information Technology) from Swinburne universities Melbourne. 
 I worked in a Digital Agency (APD) as a Traffic Executive.
 
@@ -6,7 +8,7 @@ transitioning into a career in full-stack web development. I am currently undert
 I'm always looking to explore new opportunities and work with passionate, creative people.
 
 
-1. Describe key events in the development of the internet from the 1980s to today?
+#Describe key events in the development of the internet from the 1980s to today?
 
 pre 1990: 
 fundamentals of computer networking, Cisco founded
@@ -65,7 +67,7 @@ Quora, real-time web frameworks
 Welcome to the Age of Facebook, the 8th layer of the Internet.
 
 
-2.Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
+#Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 A server hosts information.
 
 An IP address is associated with that server.

@@ -266,9 +266,6 @@ footer ul li {
   .midPage{
     width:80%;
   }
-  .main-heading{
-    padding-top: 80px;
-  }
   header > span{
     display: block;
     color:white;
@@ -410,6 +407,9 @@ footer ul li {
   .graph{
     padding:0px;
   }
+  .main-heading{
+    padding:0px;
+  }
 }
 @media screen and (max-width: 320px) {
   input{
@@ -418,5 +418,13 @@ footer ul li {
 .graph{
   display: block;
 }
+.main-heading{
+  padding: 0px;
+}
+}
 
+@media screen and (max-width: 360px) {
+  .main-heading{
+    padding-top: 78px;
+  }
 }
