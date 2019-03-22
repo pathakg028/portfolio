@@ -7,7 +7,7 @@ https://github.com/pathakg028/portfolio
 
 # Purpose
 
-The main purpose of portfolio website is to demonstrate my skills, projects, work experience and interests to the recruiters and people around the world.
+The main purpose of portfolio website is to demonstrate my skills, projects, work experience, interests to the recruiters and people around the world.
 
 # Functionality / features
 
