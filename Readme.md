@@ -81,6 +81,18 @@ key events in the development of the internet are as follows:
 1. Twitter launches.
 2. Facebook opens its eDoors to everyone.
 
+2010: Facebook reaches 400 million active users.
+
+2010: The social media sites Pinterest and Instagram are launched.
+
+2011: Twitter and Facebook play a large role in the Middle East revolts.
+
+2013: Fifty-one percent of U.S. adults report that they bank online.
+
+2015: Instagram, the photo-sharing site, reaches 400 million users.
+
+2016: Google unveils Google Assistant
+
 # Relationship between fundamental aspects of the internet
 
 A server hosts information. An IP address is associated with that server. A DNS points you towards the IP address the server is on. AN ISP provides a gateway to the rest of the internet, that the DNS server is in charge of directing. A Browser communicates with your devices’ network access chip, and then to the ISP. A user creates information or accesses information through this browser.
