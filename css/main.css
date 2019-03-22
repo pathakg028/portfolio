@@ -9,6 +9,7 @@ height: 60%;
 width: 100%;
 display: flex;
 justify-content: space-between;
+
 }
 .card {
 width: 50%;
@@ -54,8 +55,8 @@ margin-top: 44px;
   text-align: justify;
   width:60%;
   margin: 0 auto;
-  font-size:15px;
-
+  font-size:18px;
+  font-family: 'Montserrat', sans-serif;
 }
 .graph {
   margin-left: 20px;

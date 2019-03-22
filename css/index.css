@@ -1,4 +1,3 @@
-
 @import 'navbar.css';
 @import 'main.css';
 
@@ -15,18 +14,13 @@ a, a:hover{
 html{
   scroll-behavior: smooth;
 }
-  body {
-    font-family: 'Playfair Display', serif;
-    font-family: 'Open Sans', sans-serif;
-  }
+ 
   .container{
     height: 100vh;
   }
   .main-heading{
     text-align: center;
     padding: 100px 0 30px 0;
-  
-
   }
   .intro {
     height:100vh;
@@ -40,23 +34,29 @@ html{
   }
   .midPage span{
     color: var(--darkPink);
+    font-family: 'Montserrat', sans-serif;
   }
   .midPage h3{
     color: var(--darkBlue);
     font-weight: bold; 
     padding-bottom: 30px;
     letter-spacing: 3px;
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
   }
   .mainButton{
-    width: 131px;
+    width: 148px;
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    color:var(--darkBlue);
   }
   .mainButton a {
     padding: 10px;
     background-color: #fff;
     border-radius: 10px;
+    color: var(--darkBlue);
   }
   .midPage{
     width: 24%;
@@ -85,6 +85,7 @@ margin: 0 auto;
   color: black;
   font-size: 30px;
   font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 .projectsDiv {
   width:60%;
@@ -136,6 +137,7 @@ margin: 0 auto;
 }
 .graph h2{
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
 }
 .line{
   height: 25px;
