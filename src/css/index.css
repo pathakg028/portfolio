@@ -313,7 +313,7 @@ footer ul li {
   .hamburgerMenu ul li {
     color: white;
     border-bottom: 1px;
-    border-bottom: 1px dotted white;
+    border-bottom: 1px dotted var(--darkPink);
     padding: 10px 0px;
   }
 
