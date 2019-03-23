@@ -38,7 +38,7 @@ margin-top: 44px;
   height: 200px;
   width: 200px;
   margin:0 auto;
-  background: url('../../img/avatar.png');
+  background: url('../img/avatar.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
